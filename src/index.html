@@ -33,6 +33,9 @@
   <link rel="stylesheet" href="styles/app.css">
 
   <script src="scripts/app.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
    <!--favicon-->
    <link rel="icon" href="assets/images/goutte.svg" type='image/svg'>
@@ -43,8 +46,14 @@
   <div class="contenair">
     <header class="section section--header container">
 
-      <h1 class="nom">Maïlys Colasse</h1>
-      <p class="title">Je m’appelle Maïlys Colasse, j’ai 23 ans, je suis etudiante en web design transmédia à HEAJ.</p>
+      <nav class="menu">
+        <ul class="menu__liste">
+            <li class="menu__item menu__item--actif"><a class="menu__link" href="index.html">A propos</a></li>
+            <li class="menu__item"><a class="menu__link" href="projet.html">Mes projets</a></li>
+        </ul>
+    </nav>
+
+      <h1 class="title">Je m’appelle Maïlys Colasse, j’ai 23 ans, je suis etudiante en web design transmédia à HEAJ.</h1>
       <img class="" src="assets/images/me.png" srcset="assets/images/me.png 2x" alt="Photo de moi">
 
     </header>
@@ -52,7 +61,7 @@
       <div class="contenair">
           <main>
 
-              <section class="section section--fonction container">
+              <section class="section container">
 
                 <h2 class="title title--points">Mes projets</h2>
 

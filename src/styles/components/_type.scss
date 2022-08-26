@@ -1,10 +1,11 @@
 body {
-  font-family: sans-serif;
-  font-size: $size-text;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
   line-height: 1.5;
-  color: $c-text;
+  color: var(--color-texte);
 }
 
 .title {
-  color: $c-alt;
+  font-size: 30px;
+  padding: 25px;
 }
