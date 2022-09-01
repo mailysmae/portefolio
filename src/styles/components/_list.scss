@@ -40,3 +40,12 @@ li{
 .reseau__el--mail a:hover{
     background-image: url(../assets/images/mailh.svg);
 }
+
+@media (min-width: 600px){
+    .menu{
+        left: 650px;
+    }
+    .reseau__el a{
+        width: 40px;
+    }
+}

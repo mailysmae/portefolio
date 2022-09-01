@@ -17,7 +17,6 @@ img{
 }
 .web{
     opacity: 1;
-    width: 100%;
     height: auto;
     transition: .5s ease;
 }
@@ -57,4 +56,50 @@ img{
 }
 .edge--6{
     top: 3450px;
+}
+@media (min-width: 600px){
+    .section{
+        padding: 50px;
+    }
+    .title{
+        padding: 50px;
+    }
+    .web{
+        max-width: 400px;
+    }
+    .small{
+        font-size: 20px;
+    }
+    .box{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        overflow-x: hidden;
+        width: 843px;
+       
+    }
+    .page{
+        width: 800px;
+        height: 600px;
+        font-size: 30px;
+        font-family: sans-serif;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+      }
+      .scroll{
+        position: absolute;
+        height: 5px;
+        width: 0;
+        background-color: #fefefe;
+        top: 0;
+        left: 0;
+      }
+      .edge{
+        position: relative;
+        top: 33px;
+        padding: 0;
+        right: 260px;
+      }
 }
