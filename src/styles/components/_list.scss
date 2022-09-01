@@ -25,12 +25,18 @@ li{
     overflow: hidden;
    
 
-    background-image: url(../assets/images/insta.png);
+    background-image: url(../assets/images/insta.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 
 }
+.reseau__el--insta a:hover{
+    background-image: url(../assets/images/instah.svg);
+}
 .reseau__el--mail a{
-    background-image: url(../assets/images/mail.png);
+    background-image: url(../assets/images/mail.svg);
+}
+.reseau__el--mail a:hover{
+    background-image: url(../assets/images/mailh.svg);
 }
