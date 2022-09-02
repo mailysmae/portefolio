@@ -4,8 +4,19 @@ body {
   line-height: 1.5;
   color: var(--color-texte);
 }
-
 .title {
   font-size: 30px;
   padding: 25px;
+}
+@media (min-width: 600px){
+  .title{
+    padding: 50px;
+  }
+}
+@media (max-width: 1500px){
+  .title {
+    font-size: 50px;
+    padding: 80px;
+  }
+
 }

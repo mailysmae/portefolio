@@ -11,6 +11,7 @@ a{
 img{
     max-width: 100%;
     border-radius: 300px;
+    position: relative;
 }
 .proto a:hover{
     background-color: grey;
@@ -61,9 +62,6 @@ img{
     .section{
         padding: 50px;
     }
-    .title{
-        padding: 50px;
-    }
     .web{
         max-width: 400px;
     }
@@ -103,3 +101,20 @@ img{
         right: 260px;
       }
 }
+@media (max-width: 1500px){
+    .section{
+        padding: 80px;
+    }
+    img{
+        left: 90px;
+    }
+    .page{
+        height: 1030px;
+    }
+    .box{
+        width: 1014px;
+    }
+    .edge{
+        right: 190px;
+    }
+  }

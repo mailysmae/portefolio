@@ -8,3 +8,15 @@
     width: 100%;
     max-width: 750px;
 }
+@media (min-width: 600px){
+    .contenair{
+        width: 100%;
+        max-width: 750px;
+    }
+}
+@media (max-width: 1500px){
+    .contenair{
+        width: 100%;
+        max-width: 2000px;
+    }
+}
