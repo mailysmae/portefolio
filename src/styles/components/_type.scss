@@ -13,10 +13,11 @@ body {
     padding: 50px;
   }
 }
-@media (max-width: 1500px){
+@media (min-width: 1200px){
   .title {
     font-size: 50px;
     padding: 80px;
+    width: 597px;
   }
 
 }

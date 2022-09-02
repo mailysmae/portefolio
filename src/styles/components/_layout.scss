@@ -98,23 +98,32 @@ img{
         position: relative;
         top: 33px;
         padding: 0;
-        right: 260px;
+        right: 350px;
+      }
+      .text{
+        padding: 24px 32px;
+        width: 233px;
       }
 }
-@media (max-width: 1500px){
+@media (min-width: 1200px){
     .section{
         padding: 80px;
     }
     img{
         left: 90px;
+        width: 686px;
     }
     .page{
         height: 1030px;
     }
     .box{
-        width: 1014px;
+        width: 1412px;
+        left: 30px;
     }
     .edge{
-        right: 190px;
+        right: 248px;
+    }
+    .text{
+        width: 224px;
     }
   }
