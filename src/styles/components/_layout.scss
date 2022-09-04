@@ -133,3 +133,11 @@ img{
         font-size: 24px;
     }
   }
+  @media (min-width: 1500px){
+    .section{
+        padding: 150px;
+    }
+   .box{
+    width: 2486px;
+   }
+}
