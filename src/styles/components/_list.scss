@@ -44,6 +44,7 @@ li{
 @media (min-width: 600px){
     .menu{
         left: 650px;
+        top: 0;
     }
     .reseau__el a{
         width: 40px;
@@ -51,7 +52,7 @@ li{
 }
 @media (min-width: 1200px){
     .menu{
-        left: 1259px;
+        left: 1224px;
         font-size: 25px;
     }
     .reseau__el a{
@@ -59,7 +60,7 @@ li{
         height: 40px;
     }
 }
-@media (min-width: 1500px){
+@media (min-width: 2000px){
     .menu{
         left: 2245px;
         font-size: 25px;

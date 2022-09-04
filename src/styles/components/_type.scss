@@ -10,14 +10,16 @@ body {
 }
 @media (min-width: 600px){
   .title{
-    padding: 50px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    width: 253px;
   }
 }
 @media (min-width: 1200px){
   .title {
     font-size: 50px;
-    padding: 80px;
-    width: 597px;
+    width: 417px;
   }
   body{
     font-size: 25px;
