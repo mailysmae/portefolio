@@ -51,8 +51,11 @@ li{
 }
 @media (min-width: 1200px){
     .menu{
-        left: 1300px;
+        left: 1259px;
         font-size: 25px;
     }
-
+    .reseau__el a{
+        width: 80px;
+        height: 40px;
+    }
 }

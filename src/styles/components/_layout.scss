@@ -9,7 +9,6 @@ a{
     color: var(--color-text);
 }
 img{
-    max-width: 100%;
     border-radius: 50px;
     position: relative;
 }
@@ -20,7 +19,7 @@ img{
     opacity: 1;
     height: auto;
     transition: .5s ease;
-    width: 400px;
+    width: 350px;
     padding: 5px;
 }
 .edge{
@@ -65,7 +64,7 @@ img{
         padding: 50px;
     }
     .web{
-        max-width: 400px;
+        width: 400px;
     }
     .small{
         font-size: 20px;
@@ -75,12 +74,12 @@ img{
         align-items: start;
         justify-content: space-between;
         overflow-x: hidden;
-        width: 843px;
+        width: 743px;
        
     }
     .page{
         width: 800px;
-        height: 600px;
+        height: 370px;
         font-size: 30px;
         font-family: sans-serif;
         display: flex; 
@@ -98,7 +97,7 @@ img{
       }
       .edge{
         position: relative;
-        top: 33px;
+        top: 0;
         padding: 0;
         right: 350px;
       }
@@ -116,16 +115,21 @@ img{
         width: 686px;
     }
     .page{
-        height: 1030px;
+        height: 600px;
+        width: 1150px;
     }
     .box{
-        width: 1412px;
-        left: 30px;
+        width: 1438px;
+        margin-left: -78px;
+    }
+    .web{
+        width: 750px;
     }
     .edge{
-        right: 248px;
+        right: 528px;
     }
     .text{
-        width: 224px;
+        width: 413px;
+        font-size: 24px;
     }
   }
