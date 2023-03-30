@@ -2,63 +2,84 @@
 .section{
     padding: 20px;
     margin: auto;
- 
+}
+.section--footer{
+    margin-top: 70px;
 }
 a{
     text-decoration: none;
     color: var(--color-text);
 }
 img{
-    border-radius: 50px;
     position: relative;
+    max-width: 100%;
 }
 .proto a:hover{
     background-color: grey;
 }
 .web{
-    opacity: 1;
-    height: auto;
-    transition: .5s ease;
     width: 350px;
     padding: 5px;
 }
-.edge{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 924px;
-    padding: 30px;
+.ovale{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 263px;
+    border-radius: 100%;
+    background-color: #FBC2EB;
+    margin: -180px;
+    padding: 40px;
+    animation: color 5s infinite;
+    filter: blur(27.5px);
 }
-  
+.ovale__2{
+    top: 60px;
+    height: 228px;
+    left: 172px;
+}
+.ovale__footer{
+    position: absolute;
+    width: 400px;
+    height: 107.75px;
+    right: 164px;
+    top: 3043px;
+    filter: blur(50px);
+  }
 .box:hover .web {
     opacity: 0.3;
 }
-  
-.box:hover .edge{
-    opacity: 1;
+.profil {
+    position: relative;
+    bottom: 152px;
+    left: 26px;
+    width: 270px;
 }
-  
-.text{
-    background-color: var(--color-text-offset);
-    color: white;
+.button {
+    background-color: #FCD6F1;/* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
-    padding: 16px 32px;
+    margin-left: 35px;
 }
-.edge--2{
-    top: 1150px;
+.button:hover {
+    background-color: #DEC0D5;
 }
-.edge--3{
-    top: 1330px;
-}
-.edge--4{
-    top: 1500px;
-}
-.edge--5{
-    top: 1750px;
-}
-.edge--6{
-    top: 1980px;
-}
+@keyframes color {
+    0% {
+      background-color: #FBC2EB;
+    }
+    50% {
+      background-color: #D1C1ED;
+    }
+    100% {
+      background-color: #FBC2EB;
+    }
+  }
 @media (min-width: 600px){
     .section{
         padding: 50px;
@@ -69,48 +90,31 @@ img{
     .small{
         font-size: 20px;
     }
-    .box{
-        display: flex;
-        align-items: start;
-        justify-content: space-between;
-        overflow-x: hidden;
-        width: 743px;
-       
+    .ovale__tab{
+        right: 588px;
+        top: 147px;
+        width: 532px;
     }
-    .page{
-        width: 800px;
-        height: 370px;
-        font-size: 30px;
-        font-family: sans-serif;
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        border-radius: 50px;
-      }
-      .scroll{
-        position: absolute;
-        height: 5px;
-        width: 0;
-        background-color: #fefefe;
-        top: 0;
-        left: 0;
-      }
-      .edge{
-        position: relative;
-        top: 0;
-        padding: 0;
-        right: 350px;
-      }
-      .text{
+    .ovale__2{
+        top: 140px;
+        left: 525px;
+    }
+    .text{
         padding: 24px 32px;
         width: 233px;
-      }
-      .profil{
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 1;
-      }
-      .container{
+    }
+    .profil{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        top: -76px;
+    }
+    .texte{
+        grid-column-start: 2;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        top: 27px;
+    }
+    .container{
         display: grid;
         grid-template-columns: 1fr 2fr 3fr 1fr;
         column-gap: 50px;
@@ -123,30 +127,48 @@ img{
     .section{
         padding: 80px;
     }
+    .section--main{
+    display: flex;  
+    justify-content: space-around;  
+    }   
     img{
         left: 90px;
         width: 686px;
     }
-    .page{
-        height: 600px;
-        width: 1150px;
-    }
-    .box{
-        width: 1538px;
-        margin-left: -78px;
-    }
     .web{
         width: 550px;
-    }
-    .edge{
-        right: 428px;
+        left: 295px;
     }
     .text{
         width: 400px;
         font-size: 22px;
+        left: 267px;
     }
     .profil{
-        width: 557px;
+       grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+    }
+    .ovale__tab{
+        right: 647px;
+        top: 99px;
+        width: 715px;
+        height: 514px;
+    }
+    .ovale__2{
+        width: 716px;
+        height: 494px;
+        left: 14px;
+    }
+    .button{
+        position: absolute;
+        left: 348px;
+    }
+    .ovale__footer{
+        width: 1350px;
+        height: 409px;
+        top: 3714px;
+        right: 184px;
     }
   }
   @media (min-width: 2000px){

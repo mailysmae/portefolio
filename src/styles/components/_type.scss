@@ -4,16 +4,51 @@ body {
   line-height: 1.5;
   color: var(--color-texte);
 }
-.title {
-  font-size: 30px;
+.title,
+.texte {
+  display: flex;
+  position: relative;
+  font-size: 24px;
   padding: 25px;
 }
+.texte{
+  bottom: 164px;
+}
+.nom{
+  display: flex;
+  position: relative;
+  font-size: 42px;
+  padding: 25px;
+  bottom: 76px;
+}
+.text{
+  position: relative;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.copy{
+  position: relative;
+}
 @media (min-width: 600px){
+  .texte{
+    bottom: 164px;
+    width: 363px;
+  }
   .title{
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 1;
     grid-row-start: 1;
     width: 253px;
+    top: 59px;
+  }
+  .title--points{
+    top: 13px;
+  }
+  .nom{
+    grid-column-start: 2;
+    grid-column-end: 1;
+    grid-row-start: 2;
   }
 }
 @media (min-width: 1200px){
@@ -23,6 +58,9 @@ body {
   }
   body{
     font-size: 25px;
+  }
+  .title--points{
+    top: -157px;
   }
 
 }
