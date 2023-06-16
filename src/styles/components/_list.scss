@@ -10,11 +10,13 @@ li{
 }
 /*reseaux*/
 .reseau{
-    position: relative;
     list-style: none;
-    display: flex; 
+    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;  
+    justify-content: flex-end;
+    margin-right: 44px;
+    position: relative;
+    gap: 20px;
 }
 .reseau__el a{
     display: inline-block;
