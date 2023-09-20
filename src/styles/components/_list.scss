@@ -43,7 +43,12 @@ li{
 .reseau__el--mail a:hover{
     background-image: url(../assets/images/mailh.svg);
 }
-
+.reseau__el--link a{
+    background-image: url(../assets/images/link.svg);
+}
+.reseau__el--link a:hover{
+    background-image: url(../assets/images/linkblack.svg);
+}
 @media (min-width: 600px){
     .menu{
         left: 650px;
