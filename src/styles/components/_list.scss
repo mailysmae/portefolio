@@ -3,7 +3,8 @@ li{
 }
 .menu{
     position: fixed;
-    left: 250px;
+    right: 2rem;
+    height: 3rem;
 }
 .menu__item a:hover{
     text-shadow: 2px 4px 10px var(--color-text-offset);
