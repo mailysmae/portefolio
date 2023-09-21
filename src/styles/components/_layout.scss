@@ -93,21 +93,60 @@ img{
 @media (min-width: 600px){
     .section{
         padding: 50px;
+
+        &__projet{
+            padding: 0px 212px;
+        }
+        &__main{
+            padding: 50px 260px;
+        }
+    }
+    .profil{
+        width: 50%;
+        padding: 0px 194px;
     }
     
     
 }
 @media (min-width: 1200px){
     .section{
-        padding: 80px;
-        gap: 38px;
+
+        &__projet{
+            padding: 0px 400px;
+        }
+        &__main{
+            padding: 50px 480px;
+        }
+    }
+    .ui-card {
+        max-width: 674px;
     }
     img{
-        left: 90px;
-        width: 686px;
+        height: 389px;
     }
-    
+    .description{
+        padding: 97px 150px;
+        font-size: 24px;
+    }
+    .profil{
+        padding: 0px 486px;
+        width: 30%;
+    }
+
   }
   @media (min-width: 1750px){
-   
+   .section__projet{
+    margin-top: 6rem;
+    padding: 0px 650px;
+
+   }
+   .section__main{
+    padding: 0px 650px;
+   }
+   .section__footer{
+    margin-top: 2rem;
+   }
+   .profil{
+    padding: 0px 626px;
+    }
 }

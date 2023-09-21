@@ -61,7 +61,7 @@ li{
 }
 @media (min-width: 1200px){
     .menu{
-        left: 1224px;
+        left: 1324px;
         font-size: 25px;
     }
     .reseau__el a{
@@ -69,12 +69,10 @@ li{
         height: 40px;
     }
 }
-@media (min-width: 2000px){
+@media (min-width: 1750px){
     .menu{
-        left: 2245px;
+        left: 1645px;
         font-size: 25px;
     }
-    .reseau__el a{
-        margin-left: 500px;
-    }
+
 }
