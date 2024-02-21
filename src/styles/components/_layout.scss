@@ -1,29 +1,27 @@
 /*section*/
 .section{
-    padding: 20px;
+    padding: 1rem;
     margin: auto;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 1rem;
 
     &__header{
         display: inline-flex;
         align-items: flex-start;
-        gap: 20px;
-    }
-    &__main{
-        padding: 3rem;
-        margin-top: 4rem;
     }
     &__footer{
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
     &__projet{
         gap: 40px;
     }
+}
+.projets{
+    padding: 1rem;
 }
 
 a{
@@ -33,23 +31,69 @@ a{
 img{
     position: relative;
     width: 100%;
-    height: 182px;
 }
 .profil{
     height: 100%;
 }
-.ui-card {
+.ligne{
+    height: 1px;
+    background-color: black;
+}
+.ovale{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 2rem;
+    left: 23rem;
+    border-radius: 100%;
+    background-color: #FBC2EB;
+    margin: -180px;
+    animation: color 5s infinite;
+    filter: blur(27.5px);
+
+      &__2{
+        top: 10rem;
+        left: -2rem;
+        z-index: -1;
+      }
+      &__3{
+        top: 10rem;
+        left: 24rem;
+        z-index: -1;
+      }
+      &__footer{
+        z-index: -1;
+        left: 0;
+        top: -178px;
+        width: 789px;
+        height: 410px;
+        margin: -196px;
+      }
+
+}
+@keyframes color {
+  0% {
+    background-color: #FBC2EB;
+  }
+  50% {
+    background-color: #D1C1ED;
+  }
+  100% {
+    background-color: #FBC2EB;
+  }
+}
+/*.ui-card {
     max-width: 374px;
     overflow: hidden;
     position: relative;
   }
   
   .ui-card img {
-    /*transform: scale(1.3);*/
+    /*transform: scale(1.3);
     transition: all 0.3s ease-out;
   }
-  .ui-card:hover img {
-    /*transform: scale(1.1) translateY(-20px);*/
+/*  .ui-card:hover img {
+    /*transform: scale(1.1) translateY(-20px);
     opacity: 0.1;
     background: radial-gradient(#111 50%, #000 100%);
   }
@@ -72,7 +116,7 @@ img{
   .ui-card:hover .description a {
     opacity: 1;
   }
-
+*/
 .button {
     background-color: #FCD6F1;
     border: none;

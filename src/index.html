@@ -27,9 +27,10 @@
   <script src="scripts/app.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-
-   <!--favicon-->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+   
+  <!--favicon-->
    <link rel="icon" href="assets/images/initiale.svg" type='image/svg'>
    
 </head>
@@ -37,21 +38,78 @@
 
   <div class="contenair">
     <header class="section section__header container">
-      <a href="#">Maïlys Colasse</a>
-      <nav class="menu">
-        <ul>
-          <li><a href="projets.html">Projets</a></li>
-          <li><a href="aboutme.html">About me</a></li>
-        </ul>
-      </nav>
+      <div class="ovale"></div>
+      <h1 class="title titleanim titleanim__animation">Web Designer</h1>
+      <h1 class="title titleanim titleanim__animation titleanim__animation--bis">UI/UX</h1>
+      <p>Maïlys Colasse</p>
+     
     </header>
   </div>
       <div class="contenair">
           <main>  
 
               <section class="section section__main">
-                <h1 class="titleanim titleanim__animation">Web Designer</h1>
-                <h1 class="titleanim titleanim__animation titleanim__animation--bis">UI/UX</h1>
+                <div class="ui-card"></div>
+                <div>
+                <ul class="projets">
+                  <div class="ovale ovale__2"></div>
+                  <h2 class="title title__sous">Projets</h2>
+                    <li>
+                      <a class="" href="https://www.mailys-colasse.be/projets/tfe">
+                        <img src="assets/images/cycle.png" srcset="assets/images/cycle.png 2x" alt="Image de mon projet de TFE Règle ton cycle">
+                      <div>
+                        <h3 class="title title__sous"><span>Règles ton cycle</span></h3>
+                      </div>
+                      <div class="ligne"></div>
+                      <div>
+                        <p><span>Design, Développement & vidéos</span></p>
+                      </div>
+                    </a>
+                    </li>
+                    <li>
+                      <a class="" href="https://www.mailys-colasse.be/projets/constella/">
+                        <img src="assets/images/constella.png" srcset="assets/images/constella.png 2x" alt="Image d'un projet pour dataplay Constella">
+                      <div>
+                        <h3 class="title title__sous"><span>Constella</span></h3>
+                      </div>
+                      <div class="ligne"></div>
+                      <div>
+                        <p><span>Design</span></p>
+                      </div>
+                    </a>
+                    </li>
+                    <div class="ovale ovale__3"></div>
+                    <li>
+                      <a class="" href="https://www.mailys-colasse.be/projets/ilab/">
+                        <img src="assets/images/flight.png" srcset="assets/images/flight.png 2x" alt="Picto localisation">
+                      <div>
+                        <h3 class="title title__sous"><span>FlightCrew</span></h3>
+                      </div>
+                      
+                      <div class="ligne"></div>
+                      <div>
+                        <p><span>Vidéos</span></p>
+                      </div>
+                    </a>
+                    </li>
+                  
+                    <li>
+                      <a class="" href="https://www.mailys-colasse.be/projets/rethinking-ux/">
+                        <img class="web" src="assets/images/rux.png" srcset="assets/images/rux.png 2x" alt="Picto localisation">
+                      <div>
+                        <h3 class="title title__sous"><span>RUX</span></h3>
+                      </div>
+                      <div class="ligne"></div>
+                      <div>
+                        <p><span>Design, Développement & vidéos</span></p>
+                      </div>
+                    </a>
+                    </li>
+
+                </ul>
+              </div>
+
+              
               </section>
         
             </main>
@@ -59,7 +117,8 @@
     <div class="contenair">
       <footer class="section section__footer">
       
-          <p class="copy">Contactez moi</p>
+          <h3 class="title">Contactez moi</h3>
+          <div class="ligne"></div>
 
           <ul class="reseau">
               <li class="reseau__el reseau__el--insta"><a href="https://www.instagram.com/mailys_dwt/">Instagram</a></li>
@@ -67,6 +126,7 @@
               <li class="reseau__el reseau__el--link"><a href="https://www.linkedin.com/in/ma%C3%AFlys-c-433665251/">Linkedin</a></li>
           </ul>
           
+          <div class="ovale ovale__footer"></div>
       </footer>
   </div>
 </body>

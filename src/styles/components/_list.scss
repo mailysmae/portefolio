@@ -1,6 +1,7 @@
 li{
     list-style: none;
 }
+
 .menu{
     position: fixed;
     right: 2rem;
@@ -14,14 +15,14 @@ li{
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 44px;
     position: relative;
     gap: 20px;
+    padding: 1rem;
 }
 .reseau__el a{
     display: inline-block;
-    width: 20px;
+    width: 110px;
+    height: 30px;
     
     
     text-indent: 100%;
