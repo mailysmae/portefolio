@@ -73,63 +73,23 @@ body {
 
 @media (min-width: 600px){
   .title{
-    padding: 0px 212px;
+    font-size: 100px;
+    &__sous{
+      font-size: 64px;
+    }
   }
-  .texte{
-    width: 322px;
-    padding: 0px 213px;
+  .titleanim__animation{
+    width: 800px;
   }
-  .titleanim{
-    font-size: 50px;
-  }
-
 }
 @media (min-width: 1200px){
-  .title{
-    font-size: 100px;
-    padding: 0px 382px;
-
-
+ .title{
+  font-size: 180px;
     &__sous{
-      font-size: 50px;
-      padding: 0px 312px;
+      font-size: 100px;
     }
-  }
-  .copy{
-    font-size: 24px;
-    margin-top: -3rem;
-  }
-  .texte{
-    font-size: 24px;
-    padding: 0px 312px;
-    width: 794px;
-  }
-  .titleanim{
-    font-size: 100px;
-    width: 580px;
-  }
-  @keyframes typinbis {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-      border-right: 3px solid rgb(208, 0, 255);
-    }
-    100% {
-      opacity: 1;
-      border-right: 3px solid rgb(208, 0, 255);
-      max-width: 250px;
-    }
-  }
+ }
 }
 @media (min-width: 1750px){
-  .title{
-      padding: 0px 602px;
-  }
-  .texte{
-    padding: 0px 602px;
-    width: 650px;
-}
+
 }

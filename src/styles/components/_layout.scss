@@ -16,9 +16,6 @@
         display: flex;
         flex-direction: column;
     }
-    &__projet{
-        gap: 40px;
-    }
 }
 .projets{
     padding: 1rem;
@@ -40,34 +37,34 @@ img{
     background-color: black;
 }
 .ovale{
-    position: relative;
+    position: absolute;
     width: 400px;
     height: 400px;
     top: 2rem;
-    left: 23rem;
+    left: 28rem;
     border-radius: 100%;
     background-color: #FBC2EB;
     margin: -180px;
     animation: color 5s infinite;
     filter: blur(27.5px);
-
+ 
       &__2{
-        top: 10rem;
-        left: -2rem;
+        top: 12rem;
+        left: -1rem;
         z-index: -1;
       }
       &__3{
-        top: 10rem;
-        left: 24rem;
+        top: 82rem;
+        left: 34rem;
         z-index: -1;
       }
       &__footer{
         z-index: -1;
-        left: 0;
-        top: -178px;
-        width: 789px;
-        height: 410px;
-        margin: -196px;
+        left: -19rem;
+        top: -1rem;
+        width: 939px;
+        height: 357px;
+        margin: 22px;
       }
 
 }
@@ -135,72 +132,52 @@ img{
 }
 
 @media (min-width: 600px){
-    .section{
-        padding: 50px;
-
-        /*&__projet{
-            padding: 0px 212px;
-        }*/
-        &__main{
-            padding: 50px 260px;
-        }
-    }
-    .profil{
-        width: 50%;
-        padding: 0px 194px;
-    }
-    img{
-        object-fit: cover;
-        max-width: 197px;
-        height: 97px;
-    }
-    .description{
-        width: 11rem;
-    }
-    .ui-card{
-        overflow: unset;
-    }
+.ovale{
+  &__footer{
+    z-index: -1;
+    left: -12rem;
+    top: 7rem;
+    width: 999px;
+    height: 598px;
+    margin: 22px;
+  }
+}
     
 }
 @media (min-width: 1200px){
-    .section{
-
-        &__projet{
-            padding: 0px 400px;
-        }
-        &__main{
-            padding: 50px 480px;
-        }
-    }
-    .ui-card {
-        max-width: 674px;
-    }
-    img{
-        height: 389px;
-    }
-    .description{
-        padding: 97px 150px;
-        font-size: 24px;
-    }
-    .profil{
-        padding: 0px 486px;
-        width: 30%;
-    }
-
+  .section{
+    padding: 9rem;
   }
-  @media (min-width: 1750px){
-   .section__projet{
-    margin-top: 6rem;
-    padding: 0px 650px;
+  .ovale{
+    top: 2rem;
+    left: 78rem;
+    width: 700px;
+    height: 600px;
 
-   }
-   .section__main{
-    padding: 0px 650px;
-   }
-   .section__footer{
-    margin-top: 2rem;
-   }
-   .profil{
-    padding: 0px 626px;
+    &__2{
+      top: 12rem;
+      left: -2rem;
     }
+    &__3{    
+      top: 132rem;
+    }
+
+    &__footer{
+      z-index: -1;
+      left: -30rem;
+      top: 7rem;
+      width: 2500px;
+      height: 660px;
+      margin: 10px;
+    }
+  }
+  .ligne{
+    height: 2px;
+  }
+  img{
+    display: none;
+  }
+  }
+@media (min-width: 1750px){
+
 }
