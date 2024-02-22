@@ -1,20 +1,25 @@
 /*section*/
 .section{
-    padding: 1rem;
+    padding: 2rem;
     margin: auto;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 1rem;
 
-    &__header{
-        display: inline-flex;
-        align-items: flex-start;
-    }
     &__footer{
-        display: flex;
-        flex-direction: column;
+      /*background-image: linear-gradient(113deg, rgba(251, 194, 235, 0.8) 0%, rgba(251, 194, 235, 0.8) 0.01%, rgba(209, 194, 236, 0.72) 48.96%, rgba(166, 193, 238, 0.51) 100%);
+      */background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      border-radius: 40% 40% 10% 10%;
+      background-color: #FBC2EB;
+      margin: -8px;
+      width: auto;
+
+      animation: color 5s infinite;
+      box-shadow: inset 0px 0px 20px 20px white;
+    
     }
 }
 .projets{
@@ -41,7 +46,7 @@ img{
     width: 400px;
     height: 400px;
     top: 2rem;
-    left: 28rem;
+    left: 80%;
     border-radius: 100%;
     background-color: #FBC2EB;
     margin: -180px;
@@ -49,13 +54,12 @@ img{
     filter: blur(27.5px);
  
       &__2{
-        top: 12rem;
-        left: -1rem;
+        top: 7rem;
+        left: -20%;
         z-index: -1;
       }
       &__3{
-        top: 82rem;
-        left: 34rem;
+        top: 69rem;
         z-index: -1;
       }
       &__footer{
@@ -79,41 +83,6 @@ img{
     background-color: #FBC2EB;
   }
 }
-/*.ui-card {
-    max-width: 374px;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .ui-card img {
-    /*transform: scale(1.3);
-    transition: all 0.3s ease-out;
-  }
-/*  .ui-card:hover img {
-    /*transform: scale(1.1) translateY(-20px);
-    opacity: 0.1;
-    background: radial-gradient(#111 50%, #000 100%);
-  }
-  .description {
-    position: absolute;
-    left: 0;
-    top: 0;
-    max-width: 90%;
-    padding: 15px;
-    text-align: left;
-    color: black;
-  }
-  .description p {
-    opacity: 0;
-    transition: alL 0.3s ease-out 0.2s;
-  }
-  .ui-card:hover .description p {
-    opacity: 1;
-  }
-  .ui-card:hover .description a {
-    opacity: 1;
-  }
-*/
 .button {
     background-color: #FCD6F1;
     border: none;
@@ -130,54 +99,96 @@ img{
 .button:hover {
     background-color: #DEC0D5;
 }
+.contenu{
+    background-image: url(../assets/images/cycle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 177px;
+
+}
+.contenu__etoile{
+  background-image: url(../assets/images/constella.png);
+}
+.contenu__flight{
+  background-image: url(../assets/images/flight.png);
+}
+.contenu__rux{
+  background-image: url(../assets/images/rux.png);
+}
 
 @media (min-width: 600px){
-.ovale{
-  &__footer{
-    z-index: -1;
-    left: -12rem;
-    top: 7rem;
-    width: 999px;
-    height: 598px;
-    margin: 22px;
+  .contenu{
+    height: 444px;
   }
-}
     
 }
 @media (min-width: 1200px){
-  .section{
-    padding: 9rem;
-  }
-  .ovale{
-    top: 2rem;
-    left: 78rem;
-    width: 700px;
-    height: 600px;
+    .section{
+      padding: 9rem;
+      &__footer{
+        padding: 6rem;
+      }
+    }
+    .ovale{
+      top: -2rem;
+      /*left: 80rem;*/
+      width: 892px;
+      height: 734px;
 
-    &__2{
-      top: 12rem;
-      left: -2rem;
-    }
-    &__3{    
-      top: 132rem;
-    }
+      &__2{
+        top: 4rem;
+      }
+      &__3{    
+        top: 81rem;
+      }
 
-    &__footer{
-      z-index: -1;
-      left: -30rem;
-      top: 7rem;
-      width: 2500px;
-      height: 660px;
-      margin: 10px;
     }
-  }
-  .ligne{
-    height: 2px;
-  }
-  img{
-    display: none;
-  }
+    .ligne{
+      height: 2px;
+    }
+    .contenu {
+      transition: opacity ease;
+      position: absolute;
+      top: 38rem;
+      right: 12rem;
+      background-size: cover;
+      width: 420px;
+      height: 191px;
+      &__etoile{
+        top: 60rem;
+      }
+      &__flight{
+        top: 85rem;
+      }
+      &__rux{
+        top: 110rem;
+      }
+    }
+   
+
+    
   }
 @media (min-width: 1750px){
-
+  .section{
+    padding: 14rem;
+    
+  }
+  .contenu {
+    transition: opacity ease;
+    position: absolute;
+    top: 42rem;
+    right: 18rem;
+    background-size: cover;
+    width: 420px;
+    height: 191px;
+    &__etoile{
+      top: 66rem;
+    }
+    &__flight{
+      top: 90rem;
+    }
+    &__rux{
+      top: 116rem;
+    }
+  }
 }
