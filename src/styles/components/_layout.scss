@@ -7,8 +7,7 @@
     flex-direction: column;
 
     &__footer{
-      /*background-image: linear-gradient(113deg, rgba(251, 194, 235, 0.8) 0%, rgba(251, 194, 235, 0.8) 0.01%, rgba(209, 194, 236, 0.72) 48.96%, rgba(166, 193, 238, 0.51) 100%);
-      */background-position: center;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
 
@@ -34,9 +33,7 @@ img{
     position: relative;
     width: 100%;
 }
-.profil{
-    height: 100%;
-}
+
 .ligne{
     height: 1px;
     background-color: black;
@@ -83,22 +80,6 @@ img{
     background-color: #FBC2EB;
   }
 }
-.button {
-    background-color: #FCD6F1;
-    border: none;
-    color: black;
-    padding: 10px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-
-    opacity: 0;
-    transition: alL 0.3s ease-out 0.4s;
-}
-.button:hover {
-    background-color: #DEC0D5;
-}
 .contenu{
     background-image: url(../assets/images/cycle.png);
     background-repeat: no-repeat;
@@ -131,7 +112,6 @@ img{
     }
     .ovale{
       top: -2rem;
-      /*left: 80rem;*/
       width: 892px;
       height: 734px;
 
