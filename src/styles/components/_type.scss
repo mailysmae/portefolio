@@ -65,7 +65,7 @@ body {
   &__sous{
     font-size: 44px;
   }
-  &__sous:hover{
+  &__sous--hover:hover{
     transform: translateY(20px);
   }
 }
