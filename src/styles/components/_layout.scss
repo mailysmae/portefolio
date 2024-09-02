@@ -1,10 +1,11 @@
 /*section*/
 .section{
-    margin: 7rem 2rem 0rem 2rem;
+    margin: 7rem 0rem 0rem 0rem;
     position: relative;
     display: flex;
     flex-direction: column;
-    
+    overflow-x: clip;
+    padding: 2rem;
 
     &__footer{
      /* background-position: center;
@@ -55,7 +56,7 @@ img{
  
       &__2{
         left: -2rem;
-        height: 20%;
+        height: 17%;
       }
       &__3{
         top: 112rem;
@@ -135,6 +136,9 @@ img{
     width: 74%;
     height: 16%;
     }
+  }
+  .section{
+    overflow-x: none;
   }
 
 }
