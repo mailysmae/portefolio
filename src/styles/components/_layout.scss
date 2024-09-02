@@ -1,6 +1,5 @@
 /*section*/
 .section{
-    padding: 2rem;
     margin: 7rem 2rem 0rem 2rem;
     position: relative;
     display: flex;
@@ -55,13 +54,11 @@ img{
     z-index: -1;
  
       &__2{
-        right: auto;
-        width: 78%;
-        height: 16%;
+        left: -2rem;
+        height: 20%;
       }
       &__3{
-        top: 69rem;
-        width: 74%;
+        top: 112rem;
         height: 16%;
       }
       &__footer{
@@ -90,7 +87,7 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     height: 177px;
-    display: none;
+    
 
 }
 .contenu__etoile{
@@ -124,6 +121,7 @@ img{
 @media (min-width: 600px){
   .contenu{
     height: 444px;
+    display: none;
   }
   .ovale{
     width: 68%;
@@ -142,7 +140,8 @@ img{
 }
 @media (min-width: 1200px){
     .section{
-      padding: 9rem;
+      padding: 11rem;
+  
       &__footer{
         padding: 6rem;
       }
@@ -150,15 +149,18 @@ img{
     .ovale{
       width: 54%;
       height: 97%;
+      top: -6rem;
 
       &__2{
         width: 50%;
-        height: 27%;
+        height: 37%;
+        left: 4rem;
+        top: -2rem;
       }
       &__3{    
-        top: 110rem;
+        top: 105rem;
         width: 50%;
-        height: 26%;
+        height: 34%;
       }
 
     }
@@ -189,25 +191,47 @@ img{
   }
 @media (min-width: 1750px){
   .section{
-    padding: 14rem;
+    padding: 10rem;
+    margin: 13rem;
+
+    &__footer{
+      margin: 5rem;
+
+    }
     
   }
   .contenu {
     transition: opacity ease;
     position: absolute;
-    top: 42rem;
-    right: 18rem;
+    top: 38rem;
+    right: 8rem;
     background-size: cover;
     width: 420px;
     height: 191px;
     &__etoile{
-      top: 66rem;
+      top: 52rem;
     }
     &__flight{
-      top: 90rem;
+      top: 68rem;
     }
     &__rux{
-      top: 116rem;
+      top: 83rem;
     }
+  }
+  .ovale{
+    top: -15rem;
+    right: -8rem;
+    &__2{
+      width: 60%;
+      height: 42%;
+      left: -10rem;
+   
+    }
+    &__3{    
+      top: 100rem;
+      width: 60%;
+      height: 46%;
+    }
+
   }
 }

@@ -33,6 +33,7 @@ li{
 }
 .reseau__el--behance a{
     background-image: url(../assets/images/behance.svg);
+    width: 50%;
 }
 .reseau__el--mail a:hover{
     background-image: url(../assets/images/mailh.svg);
@@ -45,6 +46,7 @@ li{
 }
 .reseau__el--behance a:hover{
     background-image: url(../assets/images/behanceh.svg);
+    max-width: 100%;
 }
 @media (min-width: 600px){
     .reseau__el a{
@@ -54,4 +56,11 @@ li{
     .reseau__el--mail a{
         width: 59px;
     }
+    .reseau__el--behance a{
+        
+        width: 100%;
+    }
+    
 }
+
+
